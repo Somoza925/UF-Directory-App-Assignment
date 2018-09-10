@@ -48,7 +48,7 @@
                 --> 
             </table>
           </div>
-          <form name = "entryForm" ng-submit = "addListing()">
+          <form name   = "entryForm" ng-submit = "addListing()">
             <h2>Add new listing</h2>
             <div class = "form-group">
               <label for = "inputCode">Code</label>
@@ -70,7 +70,7 @@
               <label for = "AddressValue">Address</label>
               <input ng-model = "newEntry.address" type = "text" id ="AddressValue" class = "form-control">
             </div>
-            <input class = "btn btn-primary" value = "Submit" ng-click = "addListing()">
+            <input id = "submitBtn" class = "btn btn-primary" value = "Submit" ng-click = "addListing()">
           </form>
           <!-- 
 
