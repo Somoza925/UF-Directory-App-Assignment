@@ -25,8 +25,8 @@ angular.module('listings').controller('ListingsController', ['$scope', 'Listings
     };
 
 
-    $scope.showDetails = function(index) {
-      $scope.selectedEntry = $scope.listings[index];
+    $scope.showDetails = function(entry) {
+      $scope.selectedEntry = entry;
     };
   }
 ]);
